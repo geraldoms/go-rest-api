@@ -37,7 +37,7 @@ Response:
     },{
         "id":3,
         "todo":"Go to Market",
-        "description":"Go to market to get some samples",
+        "description":"Go to market to get some food",
         "isdone":false,
         "createat":"2018-09-01T19:06:55.327237-04:00"
     }
@@ -49,7 +49,7 @@ Request:
 curl -X POST http://localhost:3000/api/todos \
   -d '{
     "todo": "Go to Market",
-    "description": "Go to market to get some samples",
+    "description": "Go to market to get some food",
     "isdone": false
 }'
 ```
